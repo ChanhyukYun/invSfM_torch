@@ -1,12 +1,11 @@
 # invSfM_torch
-Pytorch implementation of invSfM (Revealing scenes by inverting Structure-from-Motion reconstructions, Pittaluga et al., CVPR, 2019)
+Pytorch implementation of invSfM (Revealing scenes by inverting Structure-from-Motion reconstructions, Pittaluga et al., CVPR, 2019)   
 
-Pretrained model weights files are available at https://github.com/francescopittaluga/invsfm
+Pretrained model weights files are available at https://github.com/francescopittaluga/invsfm   
 
-Unzip 'wts.tar' with '/wts' directory remained at the repository
+Unzip 'wts.tar' with '/wts' directory remained at the repository   
 
-
-If you use this code/model for your research, please cite the following paper:
+If you use this code/model for your research, please cite the following paper:   
 <pre>
 <code>
 @inproceedings{pittaluga2019revealing,
@@ -17,7 +16,7 @@ If you use this code/model for your research, please cite the following paper:
   year={2019}
 }
 </code>
-</pre>
+</pre>   
 
 
 # Requirements
