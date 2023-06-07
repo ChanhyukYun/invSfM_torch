@@ -4,7 +4,8 @@ Pytorch implementation of invSfM (Revealing scenes by inverting Structure-from-M
 Pretrained model weights files are available at https://github.com/francescopittaluga/invsfm   
 
 Unzip 'wts.tar' with '/wts' directory remained at the repository   
-
+   
+   
 If you use this code/model for your research, please cite the following paper:   
 <pre>
 <code>
