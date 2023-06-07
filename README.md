@@ -1,5 +1,5 @@
 # invSfM_torch
-Pytorch implementation of invSfM (inverting Structure-from-Motion, Pittaluga et al., CVPR, 2019)
+Pytorch implementation of invSfM (Revealing scenes by inverting Structure-from-Motion reconstructions, Pittaluga et al., CVPR, 2019)
 
 Pretrained model weights files are available at https://github.com/francescopittaluga/invsfm
 
