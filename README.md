@@ -19,6 +19,21 @@ If you use this code/model for your research, please cite the following paper:
 </pre>   
 
 
+# Paired-point lifting
+Besides, we utilized this implementation codes for the brand-new privacy-preserving representation called 'Paired-point lifting (PPL)'.
+More information about PPL can be found in https://github.com/Fusroda-h/ppl
+<pre>
+   <code>
+      @inproceedings{lee2023paired,
+     title={Paired-Point Lifting for Enhanced Privacy-Preserving Visual Localization},
+     author={Lee, Chunghwan and Kim, Jaihoon and Yun, Chanhyuk and Hong, Je Hyeong},
+     booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+        pages={17266--17275},
+     year={2023}
+   }
+   </code>
+</pre>
+
 # Requirements
 numpy==1.23.1
 
