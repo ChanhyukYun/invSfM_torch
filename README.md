@@ -21,6 +21,7 @@ If you use this code/model for your research, please cite the following paper:
 
 # Paired-point lifting
 Besides, we utilized this implementation codes for the brand-new privacy-preserving representation called 'Paired-point lifting (PPL)'.
+
 More information about PPL can be found in https://github.com/Fusroda-h/ppl
 <pre>
    <code>
