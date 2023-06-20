@@ -25,7 +25,7 @@ Besides, we utilized this implementation codes for the brand-new privacy-preserv
 More information about PPL can be found in https://github.com/Fusroda-h/ppl
 <pre>
    <code>
-      @inproceedings{lee2023paired,
+   @inproceedings{lee2023paired,
      title={Paired-Point Lifting for Enhanced Privacy-Preserving Visual Localization},
      author={Lee, Chunghwan and Kim, Jaihoon and Yun, Chanhyuk and Hong, Je Hyeong},
      booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
