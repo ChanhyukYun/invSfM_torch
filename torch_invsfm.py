@@ -346,7 +346,7 @@ def eval_rnet(rinp, rnet):
     rpred_ = rpred.cpu()
     return rpred_
 
-def v_eval(inp_ch, vinp, vwts_dir):
+def v_eval(inp_ch, vinp, valid, vwts_dir):
     vnet = set_vnet(inp_ch, vwts_dir)
     vpred_ = torch.zeros([1,1,vinp.shape[2],vinp.shape[3]])
     vpredf_ = torch.zeros([1,vinp.shape[2],vinp.shape[3],1]).to(device)
@@ -438,7 +438,7 @@ if __name__=='__main__':
     #-------------------------------------------------------------------------------
     # 1. VisibNet
     vinp, inp_ch, valid, pdepth, psift, prgb = load_vinp(cmap_database_fp, cmap_points3D_fp, cmap_cameras_fp, cmap_images_fp, prm)
-    vpred, vpredf = v_eval(inp_ch, vinp, vnet_wts_fp)
+    vpred, vpredf = v_eval(inp_ch, vinp, valid, vnet_wts_fp)
 
     # 2. CoarseNet
     # set up coarsenet 
